@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_24px"
+        android:enabled="true"
+        android:title="@string/text_home"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_icons8_search"
+        android:enabled="true"
+        android:title="@string/text_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/music"
+        android:icon="@drawable/ic_music_note_24px"
+        android:enabled="true"
+        android:title="@string/text_music"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/ic_history_24dp"
+        android:enabled="true"
+        android:title="@string/text_info"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme.-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+         <!--Customize your theme here.-->
+        <item name="colorPrimary">@android:color/holo_red_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#fff</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+    <style name="AlertDialogStyle" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+</resources>
